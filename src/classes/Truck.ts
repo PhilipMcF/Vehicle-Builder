@@ -92,7 +92,7 @@ class Truck extends Vehicle implements AbleToTow{
     console.log(
       `Wheel 4: ${this.wheels[3].getDiameter} inch with a ${this.wheels[3].getTireBrand} tire`
     );
-    }
+  }
 }
 
 // Export the Truck class as the default export
