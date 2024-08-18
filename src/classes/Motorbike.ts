@@ -47,8 +47,8 @@ class Motorbike extends Vehicle{
   }
   // Implement the wheelie method
   // The method should log the message "Motorbike [make] [model] is doing a wheelie!"
-  wheelie(): void{
-    console.log(`Motorbike ${this.make} ${this.model} just did a wheelie!`);
+  override wheelie(): void{
+    console.log(`Motorbike ${this.make} ${this.model} did a wheelie!`);
   }
 
   // Override the printDetails method from the Vehicle class
