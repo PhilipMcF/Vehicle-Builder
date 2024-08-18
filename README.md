@@ -28,7 +28,7 @@ npm install
 https://nodejs.org/en/download/package-manager
 
 ## Usage
-[Vehicle Builder Video Showcase](https://drive.google.com/file/d/1fzmao0LVTytWGWjoHkYm6XSQhojP7Eru/view?usp=drive_link)
+[Vehicle Builder Video Showcase](https://drive.google.com/file/d/1xTDpYGIfvkhx-Bs4_umdPMYqobJSMllL/view?usp=drive_link)
 
 To start the project, make sure you are in the directory of the repo/project and run this command in a terminal window:
 ```bash
