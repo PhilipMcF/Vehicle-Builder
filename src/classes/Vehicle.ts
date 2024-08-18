@@ -6,11 +6,13 @@ class Vehicle implements Driveable {
   // Declare properties of the Vehicle class
   started: boolean;
   currentSpeed: number;
+  towingCapacity: number;
 
   // Constructor for the Vehicle class
   constructor() {
     this.started = false;
     this.currentSpeed = 0;
+    this.towingCapacity = 0;
   }
 
   // Method to print vehicle details
@@ -75,6 +77,7 @@ class Vehicle implements Driveable {
   }
 
   wheelie(){}
+  tow(vehicle: any){}
 }
 
 // Export the Vehicle class
