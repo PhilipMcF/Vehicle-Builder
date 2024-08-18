@@ -53,7 +53,7 @@ The actions you can perform on a created/selected vehicle is as follows:
 A video demonstration can be viewed in the link at the top of this [Usage](#usage) section
 
 ## Contributing
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)<br>
 To contribute to this project, you can fork it or create an issue and provide any suggestions or solutions.
 Please try and follow the Contributor Covenant code of conduct and leave a star if you like the project.
 
