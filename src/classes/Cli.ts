@@ -176,10 +176,10 @@ class Cli {
         },
       ])
       .then((answers) => {
-        // TODO: Use the answers object to pass the required properties to the Truck constructor
-        // TODO: push the truck to the vehicles array
-        // TODO: set the selectedVehicleVin to the vin of the truck
-        // TODO: perform actions on the truck
+        // Use the answers object to pass the required properties to the Truck constructor
+        // push the truck to the vehicles array
+        // set the selectedVehicleVin to the vin of the truck
+        // perform actions on the truck
         const truck = new Truck(
           Cli.generateVin(),
           answers.color,
@@ -253,10 +253,23 @@ class Cli {
         },
       ])
       .then((answers) => {
-        // TODO: Use the answers object to pass the required properties to the Motorbike constructor
-        // TODO: push the motorbike to the vehicles array
-        // TODO: set the selectedVehicleVin to the vin of the motorbike
-        // TODO: perform actions on the motorbike
+        // Use the answers object to pass the required properties to the Motorbike constructor
+        // push the motorbike to the vehicles array
+        // set the selectedVehicleVin to the vin of the motorbike
+        // perform actions on the motorbike
+        const motorbike = new Motorbike(
+          Cli.generateVin(),
+          answers.color,
+          answers.make,
+          answers.model,
+          parseInt(answers.years),
+          parseInt(answers.weight),
+          parseInt(answers.topSpeed),
+          [new Wheel(answers.frontWheelDiameter, answers.frontWheelBrand), new Wheel(answers.rearWheelDiameter, answers.rearWheelBrand)]
+        );
+        this.vehicles.push(motorbike);
+        this.selectedVehicleVin = motorbike.vin;
+        this.performActions();
       });
   }
 
